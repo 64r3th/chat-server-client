@@ -1,6 +1,7 @@
 const net = require('net');
 const fs = require('fs');
 
+
 const log = fs.createWriteStream('chat.log', { flags: 'a' });
 
 const server = net.createServer((socket) => {

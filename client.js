@@ -1,5 +1,6 @@
 const net = require('net');
 
+
 const username = process.argv[2];
 if (!username) {
   console.error('Please provide a username');
